@@ -66,11 +66,12 @@ cd /home/pets2025/Desktop/PETS2025
 Then you can see the python files there and can use the instructions below in the Experiments section to run the python files.
 
 - **Download and Launch the VM**
+  
 1. **Download the VM**: Click [here](https://drive.google.com/file/d/1Ir_N9LIUDepHPOK7J-032jnajA1-9oy7/view?usp=sharing) to download the OVA file for the VM.
 2. **Import the OVA into VirtualBox** (or your preferred virtualization software): Open VirtualBox, navigate to `File > Import Appliance`, and follow the prompts to import the downloaded OVA file.
 3. **Start the VM**: Once imported, start the VM. When prompted, use the password `123` to log in.
 
-### Access the Project Files
+- **Access the Project Files**
 Once logged into the VM:
 1. Open a terminal window.
 2. Navigate to the project directory with the following command:
