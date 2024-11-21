@@ -41,13 +41,6 @@ This document outlines the hardware and software requirements for executing the 
 
 If your system meets the above requirements, simply download and import the pre-configured VM to get started.
 
-#### Without the VM:
-If running the artifact outside the VM, ensure the following:
-- **Processor:** Multi-core CPU recommended.
-- **RAM:** Minimum of 4 GB required.
-- **Storage:** At least 1 GB of free disk space.
-- **Additional Hardware Requirements:** None specific to this artifact.
-
 
 ### Software Requirements
 
@@ -67,7 +60,6 @@ Reviewers can simply boot the VM and navigate to `/home/pets2025/Desktop/PETS202
 
 - **Compute Time:** Running each script individually should take a few minutes. The time required for audio file processing depends on the size and length of the files.
 - **Storage Consumption:** The initial download size of the OVA file is approximately 4 GB. Dpeneding on the usecase, the VM's storage can expand up to the maximum allocated size of 14.32 GB as specified in the VM settings.
-
 
 
 
