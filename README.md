@@ -56,6 +56,32 @@ Commit ID: XXXXXXX
 
 
 ### Set up the environment (Only for Functional and Reproduced badges)
+-**Using the VM with installed dependencies**
+To use the Vm first use this link to download the VM ova file.
+The password of the VM is 123. First use this command:
+
+```bash
+cd /home/pets2025/Desktop/PETS2025
+```
+Then you can see the python files there and can use the instructions below in the Experiments section to run the python files.
+
+- **Download and Launch the VM**
+1. **Download the VM**: Click [here](https://drive.google.com/file/d/1Ir_N9LIUDepHPOK7J-032jnajA1-9oy7/view?usp=sharing) to download the OVA file for the VM.
+2. **Import the OVA into VirtualBox** (or your preferred virtualization software): Open VirtualBox, navigate to `File > Import Appliance`, and follow the prompts to import the downloaded OVA file.
+3. **Start the VM**: Once imported, start the VM. When prompted, use the password `123` to log in.
+
+### Access the Project Files
+Once logged into the VM:
+1. Open a terminal window.
+2. Navigate to the project directory with the following command:
+   
+   ```bash
+   cd /home/pets2025/Desktop/PETS2025
+   ```
+
+   
+- **Installing Dependencies Manually on your own System**
+
 1. Clone the repository.
    
 ```bash
@@ -64,8 +90,7 @@ cd PETS2025
 ```
 
 2. Install Dependencies:
-
-To set up dependencies on a host system:
+To set up dependencies manually on a host system:
 - Install ffmpeg (for audio playback):
   
 ```bash
