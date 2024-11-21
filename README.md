@@ -234,8 +234,8 @@ python seleniumscript.py
 - For each search query, the script waits for the search input element to be available, enters the query, and submits it.
 
 **Time and Storage Requirements:**
-- **Time:** The script should take approximately 5 minutes to complete, depending on network speed.
-- **Storage:** Minimal, as no files are saved; only temporary logs may be generated.
+- **Time:** The script should take approximately 2 minutes to complete, depending on network speed.
+- **Storage:** Minimal, as no files are saved.
 
 **Supporting Claims and Results:**
 This experiment demonstrates the artifact's ability to:
