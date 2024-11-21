@@ -74,6 +74,7 @@ Once logged into the VM:
    ```bash
    cd /home/pets2025/Desktop/PETS2025
    ```
+Now you can run the python codes there. For more instructions on how to run experiments, please refer to [the Experiments Section](### Experiments).
 
    
 ### Installing Dependencies Manually on your own System
