@@ -38,14 +38,23 @@ This document outlines the hardware and software requirements for executing the 
   - **CPU:** A multi-core processor with virtualization support (e.g., VT-x/AMD-V enabled).
   - **Storage:** Minimum 20 GB of free disk space to accommodate the VM file and additional data.
   - **Virtualization Software:** VirtualBox (latest version recommended).
+  - **Audio Output:** A speaker connected to the computer is necessary for the `voiceassistantscript.py` python file.
 
- - VM Audio Specifications
-
-- **Host Driver**: Windows DirectSound, configured to use the host system's audio capabilities.
-- **Controller**: ICH AC97, commonly supported and emulated audio controller.
+ - **VM Audio Specifications:**
+  - **Host Driver**: Windows DirectSound, configured to use the host system's audio capabilities.
+  - **Controller**: ICH AC97, commonly supported and emulated audio controller.
 
 
 If your system meets the above requirements, simply download and import the pre-configured VM to get started.
+
+#### Without the VM:
+
+If you prefer to run the artifact directly on your host system, ensure the following hardware configurations:
+
+- **Processor:** A multi-core CPU is recommended to handle the computational demands efficiently.
+- **RAM:** Minimum of 4 GB required to ensure smooth operation.
+- **Storage:** At least 1 GB of free disk space is needed for installation and runtime data.
+- **Audio Output:** Ensure that a speaker is connected to the computer for the `voiceassistantscript.py` python file.
 
 
 ### Software Requirements
@@ -59,7 +68,7 @@ If your system meets the above requirements, simply download and import the pre-
     - Chromedriver (managed by SeleniumBase for compatibility).
     - All required Python packages from `requirements.txt`.
 
-Reviewers can simply boot the VM and navigate to `/home/pets2025/Desktop/PETS2025` to access and execute the artifact.
+Reviewers can simply boot the VM and navigate to `/home/pets2025/Desktop/PETS2025` to access and execute the artifact. For executing artifact on your system, please refer to [This Section](https://github.com/elaineezhu/PETS2025/blob/main/README.md#experiments) for more details on how to install dependencies.
 
 
 ### Estimated Time and Storage Consumption
