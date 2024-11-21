@@ -26,26 +26,65 @@ There are also two folders `Amazon Queries` and `Google Queries` containing the 
 
 ## Basic Requirements (Only for Functional and Reproduced badges)
 
+This document outlines the hardware and software requirements for executing the artifact, either within the provided Virtual Machine (VM) or on your own system. The VM is pre-configured with all dependencies, simplifying setup for reviewers.
+
+
+
 ### Hardware Requirements
-If your artifact requires specific hardware to be executed, mention that here.
-Provide instructions on how a reviewer can gain access to that hardware through remote access, buying or renting, or even emulating the hardware.
-Make sure to preserve the anonymity of the reviewer at any time.
+
+#### Using the VM:
+- **Host System Requirements:**
+  - **RAM:** At least 8 GB (6 GB allocated to the VM, 2 GB for the host OS).
+  - **CPU:** A multi-core processor with virtualization support (e.g., VT-x/AMD-V enabled).
+  - **Storage:** Minimum 20 GB of free disk space to accommodate the VM file and additional data.
+  - **Virtualization Software:** VirtualBox (latest version recommended).
+
+If your system meets the above requirements, simply download and import the pre-configured VM to get started.
+
+#### Without the VM:
+If running the artifact outside the VM, ensure the following:
+- **Processor:** Multi-core CPU recommended.
+- **RAM:** Minimum of 4 GB required.
+- **Storage:** At least 1 GB of free disk space.
+- **Additional Hardware Requirements:** None specific to this artifact.
+
+---
 
 ### Software Requirements
-The artifact is tested on the following software:
-- **Operating System:** Ubuntu 20.04 (recommended), also other Linux distributions should work. The code should also work on Windows and macOS with minor adjustments.
-- **Python Version:** 3.8 or higher
 
-- Additional Software:
-   -**ffmpeg:** Required for audio playback with ffplay in play_audio_files() script.
-   -**Google Chrome:** For Selenium-based web interactions. Install the latest stable version.
-   -**Chromedriver:** Compatible version with Chrome. This will be handled by SeleniumBase.
-   -**Third-party Python packages:** Managed via pip in requirements.txt.
+#### Using the VM:
+- The VM is pre-installed with:
+  - **Operating System:** Ubuntu 20.04 LTS.
+  - **Python Version:** 3.8.
+  - **Additional Software:**
+    - `ffmpeg`: For audio playback using the `play_audio_files()` script.
+    - Google Chrome (latest stable version).
+    - Chromedriver (managed by SeleniumBase for compatibility).
+    - All required Python packages from `requirements.txt`.
 
-### Estimated Time and Storage Consumption
-- Compute Time: Running each script individually should take a few minutes. However, the Audio file execution time depends on the audio files that are needed to be played.
-- Storage Consumption: Approximately 250–400 MB, including Python dependencies, Chrome installation, and any temporary logs or files generated during script execution.
-  
+Reviewers can simply boot the VM and navigate to `/home/pets2025/Desktop/PETS2025` to access and execute the artifact.
+
+#### Without the VM:
+If you choose to run the artifact on your own system, ensure you meet the following software requirements:
+
+- **Operating System:** Ubuntu 20.04 (recommended). The code is also compatible with other Linux distributions, Windows, and macOS with minor adjustments.
+- **Python Version:** 3.8 or higher.
+- **Additional Software:**
+  - `ffmpeg`: For audio playback using the `play_audio_files()` script.
+  - Google Chrome: Install the latest stable version.
+  - Chromedriver: Ensure compatibility with the installed version of Chrome (handled by SeleniumBase).
+  - Python dependencies: Install via pip using `requirements.txt`.
+
+---
+
+## Estimated Time and Storage Consumption
+
+- **Compute Time:** Running each script individually should take a few minutes. The time required for audio file processing depends on the size and length of the files.
+- **Storage Consumption:** The initial download size of the OVA file is approximately 4 GB. Dpeneding on the usecase, the VM's storage can expand up to the maximum allocated size of 14.32 GB as specified in the VM settings.
+
+
+
+
 ## Environment 
 
 ### Accessibility (All badges)
