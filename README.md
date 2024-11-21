@@ -39,6 +39,12 @@ This document outlines the hardware and software requirements for executing the 
   - **Storage:** Minimum 20 GB of free disk space to accommodate the VM file and additional data.
   - **Virtualization Software:** VirtualBox (latest version recommended).
 
+ - VM Audio Specifications
+
+- **Host Driver**: Windows DirectSound, configured to use the host system's audio capabilities.
+- **Controller**: ICH AC97, commonly supported and emulated audio controller.
+
+
 If your system meets the above requirements, simply download and import the pre-configured VM to get started.
 
 
