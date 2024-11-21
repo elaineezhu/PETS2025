@@ -58,16 +58,7 @@ Commit ID: XXXXXXX
 
 ### Set up the environment (Only for Functional and Reproduced badges)
 
-- **Using the VM with installed dependencies**
-  
-To use the Vm first use this link to download the VM ova file.
-
-The password of the VM is 123. First use this command:
-
-```bash
-cd /home/pets2025/Desktop/PETS2025
-```
-Then you can see the python files there and can use the instructions below in the Experiments section to run the python files.
+### Using the VM with installed dependencies
 
 - **Download and Launch the VM**
   
@@ -85,7 +76,9 @@ Once logged into the VM:
    ```
 
    
-- **Installing Dependencies Manually on your own System**
+### Installing Dependencies Manually on your own System
+
+If you prefer to set up the environment on your own system, follow the steps below to clone the repository and install all necessary dependencies:
 
 1. Clone the repository.
    
