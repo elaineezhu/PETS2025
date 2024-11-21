@@ -51,7 +51,6 @@ If running the artifact outside the VM, ensure the following:
 
 ### Software Requirements
 
-#### Using the VM:
 - The VM is pre-installed with:
   - **Operating System:** Ubuntu 20.04 LTS.
   - **Python Version:** 3.8.
@@ -63,19 +62,8 @@ If running the artifact outside the VM, ensure the following:
 
 Reviewers can simply boot the VM and navigate to `/home/pets2025/Desktop/PETS2025` to access and execute the artifact.
 
-#### Without the VM:
-If you choose to run the artifact on your own system, ensure you meet the following software requirements:
 
-- **Operating System:** Ubuntu 20.04 (recommended). The code is also compatible with other Linux distributions, Windows, and macOS with minor adjustments.
-- **Python Version:** 3.8 or higher.
-- **Additional Software:**
-  - `ffmpeg`: For audio playback using the `play_audio_files()` script.
-  - Google Chrome: Install the latest stable version.
-  - Chromedriver: Ensure compatibility with the installed version of Chrome (handled by SeleniumBase).
-  - Python dependencies: Install via pip using `requirements.txt`.
-
-
-## Estimated Time and Storage Consumption
+### Estimated Time and Storage Consumption
 
 - **Compute Time:** Running each script individually should take a few minutes. The time required for audio file processing depends on the size and length of the files.
 - **Storage Consumption:** The initial download size of the OVA file is approximately 4 GB. Dpeneding on the usecase, the VM's storage can expand up to the maximum allocated size of 14.32 GB as specified in the VM settings.
