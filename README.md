@@ -48,7 +48,6 @@ If running the artifact outside the VM, ensure the following:
 - **Storage:** At least 1 GB of free disk space.
 - **Additional Hardware Requirements:** None specific to this artifact.
 
----
 
 ### Software Requirements
 
@@ -75,7 +74,6 @@ If you choose to run the artifact on your own system, ensure you meet the follow
   - Chromedriver: Ensure compatibility with the installed version of Chrome (handled by SeleniumBase).
   - Python dependencies: Install via pip using `requirements.txt`.
 
----
 
 ## Estimated Time and Storage Consumption
 
