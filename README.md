@@ -179,7 +179,7 @@ This experiment validates the automation of sequential audio playback. Expected 
 2. Run the script using the following command.
 
 ```bash
-python voiceassistantscript.py
+python3 voiceassistantscript.py
 ```
 3. The audio files should start being played in sequence.
 
@@ -224,7 +224,7 @@ questions = ["Query 1", "Query 2", "Query 3"]
 4. Execute the script using the following command:
 
 ```bash
-python seleniumscript.py
+python3 seleniumscript.py
 ```
 
 **Expected Results:**
