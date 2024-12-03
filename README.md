@@ -39,7 +39,7 @@ This document outlines the hardware and software requirements for executing the 
   - **Storage:** Minimum 20 GB of free disk space to accommodate the VM file and additional data.
   - **Virtualization Software:** VirtualBox (latest version recommended).
   - **Audio Output:** A speaker connected to the computer is necessary for the `voiceassistantscript.py` python file.
-  - **Google Chrome Version:** 131.0.6778.85
+  
 
  - **VM Audio Specifications:**
   - **Host Driver**: Windows DirectSound, configured to use the host system's audio capabilities.
@@ -65,7 +65,7 @@ If you prefer to run the artifact directly on your host system, ensure the follo
   - **Python Version:** 3.8.
   - **Additional Software:**
     - `ffmpeg`: For audio playback using the `play_audio_files()` script.
-    - Google Chrome (latest stable version).
+    - Google Chrome Version: 131.0.6778.85
     - Chromedriver (managed by SeleniumBase for compatibility).
     - All required Python packages from `requirements.txt`.
 
