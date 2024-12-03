@@ -62,9 +62,9 @@ If you prefer to run the artifact directly on your host system, ensure the follo
 
 - The VM is pre-installed with:
   - **Operating System:** Ubuntu 20.04 LTS.
-  - **Python Version:** 3.8.
+  - **Python Version:** 3.8.10
   - **Additional Software:**
-    - `ffmpeg`: For audio playback using the `play_audio_files()` script.
+    - `ffmpeg`: (Version 4.2.7-0ubuntu0.1) For audio playback using the `play_audio_files()` script.
     - Google Chrome Version: 131.0.6778.85
     - Chromedriver (managed by SeleniumBase for compatibility).
     - All required Python packages from `requirements.txt`.
